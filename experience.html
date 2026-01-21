@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Omolara Olaniyan - Experience</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+  <div class="site-title">
+    <h1>Omolara Olaniyan - Web Portfolio</h1>
+  </div>
+  <!-- Title div -->
+
+  <div class="buffer">
+    <div class="three-col-container">
+
+      <!-- LEFT: Navigation -->
+      <div class="col col-left">
+        <h2>Navigation</h2>
+        <p>
+          <a href="index.html" title="Go to Resume">Resume</a><br>
+          <a href="experience.html" title="Go to Experience">Experience</a><br>
+          <a href="education.html" title="Go to Education">Education</a><br>
+          <a href="skills.html" title="Go to Skills">Skills</a>
+        </p>
+
+        <p>
+          Email:
+          <a href="mailto:olaniyanomolara2002@gmail.com" title="Email me">olaniyanomolara2002@gmail.com</a>
+        </p>
+      </div>
+      <!-- Links + email link -->
+
+      <!-- MIDDLE: Albany Med -->
+      <div class="col col-mid">
+        <h3>Albany Medical Center</h3>
+        <p><strong>Administrative Support Associate V / HUC</strong></p>
+        <p>2025–Present</p>
+        <ul>
+          <li>Supports unit operations and communication</li>
+          <li>Handles clerical work and documentation</li>
+        </ul>
+
+        <p>
+          Enter number of duties (1–5):
+          <input type="text" id="amcCount">
+          <button type="button" onclick="showAMCDuties()">Show Duties</button>
+        </p>
+        <p id="amcOutput"></p>
+      </div>
+      <!-- End AMC -->
+
+      <!-- RIGHT: Home Depot -->
+      <div class="col col-right">
+        <h3>Home Depot</h3>
+        <p><strong>Sales Associate</strong></p>
+        <p>2025–Present</p>
+        <ul>
+          <li>Assists customers with purchases</li>
+          <li>Organizes shelves and merchandise</li>
+        </ul>
+
+        <p>
+          Enter number of duties (1–5):
+          <input type="text" id="hdCount">
+          <button type="button" onclick="showHDDuties()">Show Duties</button>
+        </p>
+        <p id="hdOutput"></p>
+      </div>
+      <!-- End Home Depot -->
+
+    </div>
+  </div>
+  <!-- Buffer div containing 3 horizontal divs -->
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

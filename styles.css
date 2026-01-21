@@ -1,0 +1,72 @@
+/* ===== Page background ===== */
+body {
+  background: #f3f1ea;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Wrapper (prevents full-width divs) ===== */
+.wrapper {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+/* ===== Title div ===== */
+.site-title {
+  text-align: center;
+  background: #d9c7a2;
+  padding: 16px;
+  border: 2px solid #333;
+  margin-bottom: 15px;
+}
+/* site-title class */
+
+/* ===== Buffer div ===== */
+.buffer {
+  background: #b7c7c0;
+  padding: 16px;
+  border: 2px solid #333;
+  margin-bottom: 15px;
+}
+/* buffer class */
+
+/* Container for 3 columns */
+.three-col-container {
+  width: 90%;
+  margin: 0 auto;
+  overflow: auto; /* clears floats */
+}
+/* three-col-container class */
+
+/* 3 side-by-side divs */
+.col {
+  float: left;
+  width: 30%;
+  margin: 1.66%;
+  min-height: 140px;
+  padding: 10px;
+  border: 2px solid #333;
+  box-sizing: border-box;
+}
+/* col class */
+
+.col-left  { background: #f7d6d6; } /* left column */
+.col-mid   { background: #d8f0d8; } /* middle column */
+.col-right { background: #fff3b0; } /* right column */
+
+/* ===== Content area ===== */
+.content {
+  background: #ffffff;
+  padding: 16px;
+  border: 2px solid #333;
+  margin-bottom: 15px;
+}
+/* content class */
+
+/* ===== Link pseudo-classes ===== */
+a:link { color: #0b3d91; }
+a:visited { color: #5a2a82; }
+a:hover { color: #b30000; }
+a:active { color: #0a7a0a; }
